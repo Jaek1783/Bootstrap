@@ -1,0 +1,41 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+img{
+  width:100%;
+}
+ul,li,dl,ol,dt,dd{
+  list-style-type: none;
+}
+div.percent{
+  padding:3rem 0;
+}
+
+.carousel-control-next, .carousel-control-prev{
+  top:0;
+}
+
+
+.carousel-item{
+  width:100%;
+  height:800px;
+}
+.carousel01{
+  background:url('./img/cat_01.jpg') no-repeat center;
+  background-size: cover;
+}
+.carousel02{
+  background:url('./img/cat_02.jpg') no-repeat center;
+  background-size: cover;
+}
+.carousel03{
+  background:url('./img/cat_03.jpg') no-repeat center;
+  background-size: cover;
+}
+.carousel-caption{
+  bottom:auto;
+  top:0;
+}
